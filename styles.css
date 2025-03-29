@@ -1,0 +1,58 @@
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    height: 80%;
+}
+
+body {
+    background-color: #ffedbe;
+}
+
+.description {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.score-screen {
+    text-align: center;
+}
+.score-screen h1 {
+    font-size: 10vh;
+    color: red;
+}
+
+.info-box {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    width: fit-content;
+    font-family: 'Roboto', monospace;
+    box-shadow:
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.6);
+}
+
+
+.info-box a {
+    display: block;
+    margin-top: 10px;
+    color: rgb(20, 20, 193);
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Roboto', monospace;
+}
+
+.info-box a:hover {
+    text-decoration: underline;
+}
+
+.portfolio {
+    display: block;
+    padding: 20px;
+    text-align: center;
+    color:rgba(0, 0, 0, 0.6)
+}
